@@ -27,6 +27,9 @@ The Windows Autopilot simplifies enrolling devices. Building and maintaining cus
 
 ## Add devices
 
+> [!NOTE]
+> Starting in October 2018, hybrid Azure Active Directory Joined devices can be used in AutoPilot deployment.  If you do have hybrid Azure Active Directory Joined devices, you can skip ahead to Create an Autopilot device group.
+
 You can add Windows Autopilot devices by importing a CSV file with their information.
 
 1. In [Intune in the Azure portal](https://aka.ms/intuneportal), choose **Device enrollment** > **Windows enrollment** > **Devices** > **Import**.
